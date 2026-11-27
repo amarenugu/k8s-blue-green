@@ -22,5 +22,6 @@ spec:
       containers:
         - name: nginx
           image: amarenugu/blue-green:0.1.0
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
