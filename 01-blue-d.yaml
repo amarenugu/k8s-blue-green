@@ -21,6 +21,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: joindevops/blue-green:0.1.0
+          image: amarenugu/blue-green:0.1.0
           ports:
             - containerPort: 80
