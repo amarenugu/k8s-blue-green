@@ -11,3 +11,6 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 80
+
+##kubectl patch service nginx -p '{"spec":{"selector":{"version": "green"}}}'
+##kubectl patch 
